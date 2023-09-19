@@ -67,7 +67,7 @@ exports.readByPage = async ( params) => {
     });
     for (var i = 0; i < promise.length; i++) {
 
-        promise[i].ds =12
+        // promise[i].name =12
 
     }
     return promise
