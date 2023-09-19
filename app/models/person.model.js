@@ -65,11 +65,11 @@ exports.readByPage = async ( params) => {
 
         })
     });
-    for (var i = 0; i < promise.length; i++) {
-
-        // promise[i].name =12
-
-    }
+    // for (var i = 0; i < promise.length; i++) {
+    //
+    //     // promise[i].name =12
+    //
+    // }
     return promise
 
 
