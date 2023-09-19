@@ -59,7 +59,7 @@ exports.readByPage = async ( params) => {
     console.log(params.page);
     const promise = await new Promise((resolve, reject) => {
         pool.query(`SELECT *
-                    FROM users
+                    FROM usertests
                              limit  ${params.page}`, (err, result) => {
             resolve(result)
 
